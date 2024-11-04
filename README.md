@@ -8,7 +8,7 @@ Now you can walk when doing surgery.
 
 ## Installation
 
-Go to this repository's [Releases]()
+Go to this repository's [Releases](https://github.com/viniHNS/Make-Meds-Great-Again-Server/releases/tag/v1.0.0)
 
 ## Credits
 
