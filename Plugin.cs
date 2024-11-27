@@ -6,7 +6,7 @@ using makeMedsGreatAgain.MyPatches;
 namespace makeMedsGreatAgain
 {
     // first string below is your plugin's GUID, it MUST be unique to any other mod. Read more about it in BepInEx docs. Be sure to update it if you copy this project.
-    [BepInPlugin("com.vinihns.makeMedsGreatAgain", "Make Meds Great Again!", "1.1.0")]
+    [BepInPlugin("com.vinihns.makeMedsGreatAgain", "Make Meds Great Again!", "1.2.1")]
     public class Plugin : BaseUnityPlugin
     {
         public static ManualLogSource LogSource;
