@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\EFT-DEV3.10\\Make-Meds-Great-Again-Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|makeMedsGreatAgain.csproj|d:\\eft-dev3.10\\make-meds-great-again-client\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|makeMedsGreatAgain.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|makeMedsGreatAgain.csproj|D:\\EFT-DEV3.10\\Make-Meds-Great-Again-Client\\mypatches\\surgerypatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|makeMedsGreatAgain.csproj|solutionrelative:mypatches\\surgerypatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|makeMedsGreatAgain.csproj|D:\\EFT-DEV3.10\\Make-Meds-Great-Again-Client\\mypatches\\runpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|makeMedsGreatAgain.csproj|solutionrelative:mypatches\\runpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "runPatch.cs",
+              "DocumentMoniker": "D:\\EFT-DEV3.10\\Make-Meds-Great-Again-Client\\MyPatches\\runPatch.cs",
+              "RelativeDocumentMoniker": "MyPatches\\runPatch.cs",
+              "ToolTip": "D:\\EFT-DEV3.10\\Make-Meds-Great-Again-Client\\MyPatches\\runPatch.cs",
+              "RelativeToolTip": "MyPatches\\runPatch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:31:23.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "surgeryPatch.cs",
+              "DocumentMoniker": "D:\\EFT-DEV3.10\\Make-Meds-Great-Again-Client\\MyPatches\\surgeryPatch.cs",
+              "RelativeDocumentMoniker": "MyPatches\\surgeryPatch.cs",
+              "ToolTip": "D:\\EFT-DEV3.10\\Make-Meds-Great-Again-Client\\MyPatches\\surgeryPatch.cs",
+              "RelativeToolTip": "MyPatches\\surgeryPatch.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:31:23.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Plugin.cs",
+              "DocumentMoniker": "D:\\EFT-DEV3.10\\Make-Meds-Great-Again-Client\\Plugin.cs",
+              "RelativeDocumentMoniker": "Plugin.cs",
+              "ToolTip": "D:\\EFT-DEV3.10\\Make-Meds-Great-Again-Client\\Plugin.cs",
+              "RelativeToolTip": "Plugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAACkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:31:23.976Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
