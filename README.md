@@ -9,7 +9,7 @@ This is a client mod (plugin) for [SPT](https://www.sp-tarkov.com "The project's
 
 ## Installation
 
-Download the latest release from this repository's [Releases](https://github.com/viniHNS/Make-Meds-Great-Again-Server/releases/tag/v1.2.0). 
+Download the latest release from this repository's [Releases](https://github.com/viniHNS/Make-Meds-Great-Again-Server/releases). 
 
 ## Credits
 
