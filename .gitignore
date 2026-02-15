@@ -1,2 +1,55 @@
-bin/
-obj/
+# --- Build Artifacts ---
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+[Pp]ublish/
+/TestResults/
+*.pdb
+*.dll.config
+
+# --- IDE Specific ---
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vssscc
+*.vspscc
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# --- Packages & Dependencies ---
+packages/
+*.nuget.props
+*.nuget.targets
+node_modules/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- SPT & Modding ---
+*.zip
+*.tar.gz
+*.7z
+*.log
+*.tmp
+/Release/
+/Artifacts/
+
+# --- Local Overrides ---
+config/local.json
+.local
+
