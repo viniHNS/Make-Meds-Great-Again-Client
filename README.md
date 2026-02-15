@@ -43,4 +43,3 @@ This mod is licensed under the [MIT License](LICENSE).
 - Jehree for the Client Modding [Quick Start Guide](https://github.com/Jehree/SPTClientModExamples)
 - Kobrakon for his helpful [examples](https://github.com/kobrakon/ClientModdingExamples)
 - Lacyway and Cj for assistance with the code
-- NoNeedName for the server side work and new meds
