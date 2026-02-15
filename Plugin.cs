@@ -1,12 +1,12 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
 using BepInEx.Configuration;
-using makeMedsGreatAgain.MyPatches;
+using makeMedsGreatAgain.Patches;
 
 namespace makeMedsGreatAgain
 {
     // first string below is your plugin's GUID, it MUST be unique to any other mod. Read more about it in BepInEx docs. Be sure to update it if you copy this project.
-    [BepInPlugin("com.vinihns.makeMedsGreatAgain", "Make Meds Great Again!", "1.2.4")]
+    [BepInPlugin("com.vinihns.makeMedsGreatAgain", "Make Meds Great Again!", "1.2.5")]
     public class Plugin : BaseUnityPlugin
     {
         public static ManualLogSource LogSource;
@@ -22,7 +22,7 @@ namespace makeMedsGreatAgain
 
             canWalkInSurgery = Config.Bind("Config", "Can walk in surgery", true, "Allows the player to walk while performing surgical treatments.");
             canSprintUsingMeds = Config.Bind("Config", "Can sprint using meds", true, "Allows sprinting while using meds—because pain can't always slow you down.");
-            
+
             // uncomment line(s) below to enable desired example patch, then press F6 to build the project:
             new surgeryPatch().Enable();
             new runPatch().Enable();

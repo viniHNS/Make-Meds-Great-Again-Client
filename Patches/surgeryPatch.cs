@@ -5,9 +5,9 @@ using HarmonyLib;
 using SPT.Reflection.Patching;
 
 
-namespace makeMedsGreatAgain.MyPatches
+namespace makeMedsGreatAgain.Patches
 {
-    
+
     internal partial struct PlayerInfo
     {
         internal static GameWorld gameWorld
@@ -19,7 +19,7 @@ namespace makeMedsGreatAgain.MyPatches
         {
             get => player.HandsController as Player.FirearmController;
         }
-        
+
         internal static Player.MedsController medsController
         {
             get => player.HandsController as Player.MedsController;
@@ -40,7 +40,7 @@ namespace makeMedsGreatAgain.MyPatches
             get => itemHandsController as Player.UsableItemController;
         }
     }
-    
+
     internal class surgeryPatch : ModulePatch // all patches must inherit ModulePatch
     {
         protected override MethodBase GetTargetMethod()
@@ -56,7 +56,7 @@ namespace makeMedsGreatAgain.MyPatches
             {
                 return true;
             }
-            
+
             if (c == EPhysicalCondition.HealingLegs && Plugin.canWalkInSurgery.Value)
             {
                 __result = false;

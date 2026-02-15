@@ -3,7 +3,7 @@ using System.Reflection;
 using HarmonyLib;
 using SPT.Reflection.Patching;
 
-namespace makeMedsGreatAgain.MyPatches
+namespace makeMedsGreatAgain.Patches
 {
     internal class runPatch : ModulePatch // all patches must inherit ModulePatch
     {
@@ -20,14 +20,12 @@ namespace makeMedsGreatAgain.MyPatches
             {
                 return true;
             }
-            
-            Plugin.LogSource.LogWarning("_PLAYER => " + ____player.Profile.Info.Nickname);
 
             if (c == EPhysicalCondition.UsingMeds && Plugin.canSprintUsingMeds.Value)
             {
                 __result = false;
                 return false;
-                
+
             }
 
             return true;
